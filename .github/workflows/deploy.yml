@@ -22,3 +22,5 @@ jobs:
         script: |
           cd /home/ubuntu/www/my-app
           git pull
+          npm install
+          npm test
